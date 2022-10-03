@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-03-image-finder-draft",
+  "name": "goit-react-mod-03-http-queries",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vokur13.github.io/goit-react-hw-03-image-finder-draft/",
+  "homepage": "https://vokur13.github.io/ggoit-react-mod-03-http-queries/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "modern-normalize": "^1.0.0",
     "axios": "^0.27.2",
     "formik": "^2.2.9",
     "nanoid": "^4.0.0",
@@ -18,6 +19,7 @@
     "react-icons": "^4.4.0",
     "react-loader-spinner": "^5.3.4",
     "react-scripts": "5.0.1",
+    "react-toastify": "^6.2.0",
     "sass": "^1.55.0",
     "styled-components": "^5.3.5",
     "styled-system": "^5.1.5",
@@ -48,5 +50,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.2",
+    "prettier": "^2.2.0"
   }
 }
