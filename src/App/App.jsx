@@ -4,7 +4,10 @@ import { PokemonForm } from '../components/PokemonForm';
 import { PokemonInfo } from '../components/PokemonInfo';
 
 export class App extends Component {
-  state = { pokemonName: '' };
+  state = {
+    pokemonName: '',
+    visible: true,
+  };
 
   handleFormSubmit = pokemonName => {
     this.setState({ pokemonName });
